@@ -1,0 +1,107 @@
+.Nb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    background-color: #fff;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.Nb_Container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    width: 100vw;
+    padding: 2rem;
+}
+
+.Nb_Logo{
+    flex: 0.8;
+    text-align: center;
+    color: #555270;
+    font-size: 28px;
+    font-weight: 600;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+.Nb_Menu{
+    flex: 2;
+    text-align: end;
+}
+
+.Nb_Link{
+    color: #555270;
+    font-size: 15px;
+    font-family: sans-serif;
+    text-decoration: none;
+    padding: 0 1rem;
+}
+
+.Nb_Link.About:hover{
+    color: purple;
+}
+
+.Nb_Link:hover{
+    color: #d9232d;
+}
+
+.Nb_Link:active{
+    color: #d9232d;
+}
+
+.Nb_Btn{
+    flex: 0.5;
+    text-align: start;
+}
+
+.Nb_Btn button{
+    border: none;
+    padding: 10px 25px;
+    border-radius: 4px;
+    background-color: #d9232d;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+}
+
+.Nb_Btn button:hover{
+    background-color: #d34048;
+}
+
+.Sb_Icon{
+    font-size: 1.8rem;
+    color: #555270;
+    display: none;
+    z-index: 13;
+}
+
+
+
+@media screen and (max-width: 985px) {
+
+    .Nb_Container{
+        display: flex;
+        
+    }
+
+    .Nb_Logo{
+        flex: 0;
+    }
+
+    .Nb_Menu{
+        display: none;
+    }
+
+    .Nb_Btn{
+        display: none;
+    }
+
+    .Sb_Icon{
+        display: block;
+    }
+}

@@ -1,0 +1,24 @@
+.Sb_Btn{
+    padding-left: 2rem;
+}
+
+.Sb_Btn button{
+    border: none;
+    padding: 10px 25px;
+    border-radius: 3px;
+    background-color: #d9232d;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+}
+
+.Sb_Btn button:hover{
+    background-color: #d34048;
+}
+
+.Sb_Link{
+    text-decoration: none;
+    color: #555270;
+    padding: 1rem 0 1rem 2rem;
+    font-size: 15px;
+}

@@ -1,0 +1,23 @@
+.SI{
+    padding: 4rem 8rem;
+}
+
+.SI_Cont{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1.5rem;
+    row-gap: 1.5rem;
+}
+
+@media screen and (max-width: 968px) {
+    .SI{
+        padding: 4rem 2rem;
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+    .SI_Cont{
+        grid-template-columns: 1fr;
+    }
+}

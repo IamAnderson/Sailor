@@ -1,0 +1,63 @@
+.PI{
+
+}
+
+.PI_Cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 4rem 8rem;
+}
+
+.PI_Selector{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.PI_Selector p{
+    padding: 0.5rem 1.25rem;
+    margin: 0 0 1rem 0;
+    cursor: pointer;
+}
+
+.PI_Selector p:hover{
+    background-color:  #d9232d;
+    border-radius: 5px;
+    color: #fff;
+    transition: 0.35s all ease;
+}
+
+.PI_Selector p:active{
+    background-color:  #d9232d;
+    border-radius: 5px;
+    color: #fff;
+    transition: 0.25s all ease;
+}
+
+.PI_ImgCont{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 2rem;
+    row-gap: 2rem;
+}
+
+@media screen and (max-width: 985px) {
+    .PI_Cont{
+        padding: 4rem 2rem;
+    }
+
+    .PI_ImgCont{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .PI_Cont{
+        padding: 4rem 2rem;
+    }
+    .PI_ImgCont{
+        grid-template-columns: 1fr;
+        margin: 0 auto;
+    }
+}

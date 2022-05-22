@@ -1,0 +1,45 @@
+.Ct{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem 8rem;
+    background-color: #4a5562;
+}
+
+.Ct_Container{
+    color: #fff;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Ct_Text{
+    padding: 0 0 1rem 0;
+}
+
+.Ct_Dev{
+    font-size: 13px;
+    color: #fff9;    
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.Socials{
+    display: flex;
+    align-items: center;
+}
+
+.Socials_Icon{
+    font-size: 2rem;
+    padding: 0 0.25rem;
+    color: #fff;
+}
+
+.Socials_Icon:hover{
+    font-size: 2.2rem;;
+    transition: 0.25s all ease;
+}
+
+

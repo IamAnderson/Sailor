@@ -1,0 +1,37 @@
+.Br_LogoCont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #f8f9fa;
+    padding: 1.5rem 8rem;
+}
+
+.Br_Logo{
+    width: 5vw;
+}
+
+.Br_Logo img{
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+}
+
+.Br_Logo img:hover{
+    opacity: 1;
+    transform: scale(120%);
+    transition: 0.5s all ease;
+}
+
+@media screen and (Max-width: 985px) {
+    .Br_LogoCont{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 2rem;
+        column-gap: 3rem;
+    }
+
+    .Br_Logo{
+        width: 12vw;
+    }
+}

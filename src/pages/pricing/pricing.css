@@ -1,0 +1,23 @@
+.Pc_Cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem 8rem;
+}
+
+@media screen and (max-width: 985px) {
+    .Pc_Cont{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 2rem;
+        padding: 4rem 2rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .Pc_Cont{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}

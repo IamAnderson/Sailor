@@ -1,0 +1,118 @@
+.Ft{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #515d6a;
+    color: #fff;
+    padding: 4rem 8rem;
+}
+
+.Ft_Cont{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: flex-start;
+}
+
+.Ft_FirstBox{
+    flex: 1;
+}
+
+.Ft_Logo{
+    font-size: 24px;
+    font-weight: 600; 
+    margin-bottom: 1rem;
+}
+
+.Ft_FirstList{
+    font-size: 14px;
+}
+
+.Ft_FirstList p{
+    padding: 0 0 0.5rem 0;
+}
+
+.Ft_FirstList p:nth-child(3){
+    padding: 0.75rem 0 0 0;
+}
+
+.Ft_SecondBox{
+    flex: 1;
+}
+
+.Ft_Title{
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.Ft_List{
+    font-size: 14px;
+}
+
+.Ft_List p{
+    padding: 0 0 1.2rem 0;
+}
+
+
+.Ft_ThirdBox{
+    flex: 1;
+
+}
+
+.Ft_Newsletter{
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.Ft_ThirdBox p{
+    padding: 0 0 1.2rem 0;
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+.Ft_NLBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Ft_NLBox input{
+    padding: 0.5rem 1rem;
+    font-size: 13px;
+}
+
+.Ft_NLBox button{
+    font-size: 14px;
+    color: #fff;
+    background-color: #d9232d;
+    padding: 0.6rem 1rem;
+    border: none;
+    outline: none;
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 985px) {
+    .Ft{
+        padding: 4rem 2rem;
+    }
+
+    .Ft_Cont{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 2rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .Ft_Cont{
+        grid-template-columns: 1fr;
+    }
+
+    .Ft_NLBox{
+        justify-content: flex-start;
+    }
+}
+
