@@ -139,11 +139,11 @@ const showImg = () => {
 
               <IconBox>
                 <Icon onClick={showImg}>
-                  <FaBars />
+                  { <item.Icon1 /> }
                 </Icon>
                 
                 <Icon1>
-                  <FaBars />
+                { <item.Icon2 /> }
                 </Icon1>
               </IconBox>
             </TextBox>

@@ -9,7 +9,7 @@ const ServicesInfo = () => {
         <div className='SI_Cont'>
             {ServicesCardData.map((item) => {
               return(
-                <ServicesCard id={item.id} Title={item.Title} Desc={item.Desc}/>
+                <ServicesCard id={item.id} Title={item.Title} Desc={item.Desc} Icon = {item.Icon} />
               )
             })}
         </div>

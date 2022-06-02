@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import Navbar from '../../components/navbar/Navbar'
-import { AiOutlineArrowLeft, AiOutlineArrowRight } from 'react-icons/ai'
+import { BsArrowLeftCircle, BsArrowRightCircle } from 'react-icons/bs'
 import './home.css'
 import { HomeData } from './HomeData'
 import Brand from '../../components/brand/Brand'
@@ -46,8 +46,8 @@ useEffect(() => {
 
       <div className='Hm_SlideCont'>
         <div className='Hm_Arrow'>
-          <AiOutlineArrowLeft className='Ar_Left' onClick={prevbtn}/>
-          <AiOutlineArrowRight className='Ar_Right' onClick={nxtbtn}/>
+          <BsArrowLeftCircle className='Ar_Left' onClick={prevbtn}/>
+          <BsArrowRightCircle className='Ar_Right' onClick={nxtbtn}/>
         </div>
 
         {HomeData.map((item, index) => {

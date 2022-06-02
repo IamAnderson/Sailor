@@ -7,6 +7,7 @@ import img6 from '../../assets/img/portfolio/portfolio-6.jpg'
 import img7 from '../../assets/img/portfolio/portfolio-7.jpg'
 import img8 from '../../assets/img/portfolio/portfolio-8.jpg'
 import img9 from '../../assets/img/portfolio/portfolio-9.jpg'
+import { Icon1, Icon2 } from '../portfolioInfo/PortfolioIcons'
 
 
 
@@ -16,6 +17,8 @@ export const PortfolioData = [
         id: 1,
         img: img1,
         Title: 'APP 1',
+        Icon1: Icon1,
+        Icon2: Icon2,
         Desc: 'APP',
     },
 
@@ -23,6 +26,8 @@ export const PortfolioData = [
         id: 2,
         img: img2,
         Title: 'WEB 3',
+        Icon1: Icon1,
+        Icon2: Icon2,
         Desc: 'WEB',
     },
 
@@ -30,6 +35,8 @@ export const PortfolioData = [
         id: 3,
         img: img3,
         Title: 'APP 2',
+        Icon1: Icon1,
+        Icon2: Icon2,
         Desc: 'APP',
     },
 
@@ -37,6 +44,8 @@ export const PortfolioData = [
         id: 4,
         img: img4,
         Title: 'CARD 2',
+        Icon1: Icon1,
+        Icon2: Icon2,
         Desc: 'CARD',
     },
 
@@ -44,6 +53,8 @@ export const PortfolioData = [
         id: 5,
         img: img5,
         Title: 'WEB 2',
+        Icon1: Icon1,
+        Icon2: Icon2,
         Desc: 'WEB',
     },
 
@@ -51,6 +62,8 @@ export const PortfolioData = [
         id: 6,
         img: img6,
         Title: 'APP 3',
+        Icon1: Icon1,
+        Icon2: Icon2,
         Desc: 'APP',
     },
 
@@ -58,6 +71,8 @@ export const PortfolioData = [
         id: 7,
         img: img7,
         Title: 'CARD 1',
+        Icon1: Icon1,
+        Icon2: Icon2,
         Desc: 'CARD',
     },
 
@@ -65,6 +80,8 @@ export const PortfolioData = [
         id: 8,
         img: img8,
         Title: 'CARD 3',
+        Icon1: Icon1,
+        Icon2: Icon2,
         Desc: 'CARD',
     },
 
@@ -72,6 +89,8 @@ export const PortfolioData = [
         id: 9,
         img: img9,
         Title: 'WEB 3',
+        Icon1: Icon1,
+        Icon2: Icon2,
         Desc: 'WEB'
     }
 ]

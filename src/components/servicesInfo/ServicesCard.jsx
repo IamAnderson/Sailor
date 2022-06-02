@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { FaBars } from 'react-icons/fa'
+import { BsBriefcase } from 'react-icons/bs'
 
 
 const Container = styled.div`
@@ -44,11 +44,11 @@ const CardDesc = styled.p`
     padding: 0.5rem 0;
 `
 
-const ServicesCard = ({id, Title, Desc}) => {
+const ServicesCard = ({id, Title, Desc, Icon}) => {
   return (
     <Container id={id}>
         <CardIcon>
-            <FaBars />
+            { <Icon /> }
         </CardIcon>
 
         <CardContent>
